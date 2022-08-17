@@ -25,9 +25,7 @@ class Employee extends Person{
         if  (isWeekendThisYear(this.birthDayDate)) {
             return "Happy Birthday, let’s celebrate"
         }
-
         return  'Happy Birthday, but I need to work'
-
     }
 }
 
