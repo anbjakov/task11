@@ -33,7 +33,6 @@ let isWeekendThisYear = (dateStr)=>{
     let date = new Date(dateStr);
     const CURRENT_YEAR = new Date().getFullYear()
     date.setFullYear(CURRENT_YEAR);
-    console.log(date)
     if (isNaN(+date)) {
         console.error('Error: invalid date');
         return
